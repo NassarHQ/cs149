@@ -1,0 +1,16 @@
+ 1078  ls
+ 1079  cd ~
+ 1080  ls
+ 1081  cd xv6-labs-2023
+ 1082  make qemu
+ 1083  history 
+ 1084  cd ~/xv6-labs-2023
+ 1085  nano user/sleep.c
+ 1086  vim user/sleep.cc
+ 1087  vim Makefile
+ 1088  nano Makefile
+ 1089  make qemu
+ 1090  mv user/sleep.cc user/sleep.c
+ 1091  make qemu
+ 1092  ./grade-lab-util sleep
+ 1093  cd ~/xv6-labs-2023
