@@ -1,0 +1,16 @@
+ 1000  ls
+ 1001  pwd
+ 1002  cd desktop
+ 1003  ls -latr
+ 1004  git clone git@github.com:NassarHQ/cs149.git
+ 1005  git clone git@github.com:NassarHQ/cs149.git
+ 1006  cd cs149
+ 1007  mkdir WS_bonus
+ 1008  cd WS_bonus
+ 1009  git add .
+ 1010  wget -O out.pdf https://tinyurl.com/yy94jltt
+ 1011  ls
+ 1012  cat out.pdf
+ 1013  1;2cclear
+ 1014  clear
+ 1015  ls -latr
