@@ -14,3 +14,19 @@
  1013  1;2cclear
  1014  clear
  1015  ls -latr
+ 1054  brew install qemu
+ 1055  qemu-system-riscv64 --version
+ 1056  riscv-uknown-elf-gcc --version
+ 1057  riscv64-uknown-elf-gcc --version
+ 1058  riscv64-unknown-elf-gcc --version
+ 1059  cd ~
+ 1060  git clone git://g.csail.mit.edu/xv6-labs-2023
+ 1061  cd xc6-labs-2023
+ 1062  cd xv6-labs-2023
+ 1063  make qemu
+ 1064  vim user/usertests.c
+ 1065  sed -i '' 's/^rwsbrk()/rwsbrk(char *s)/' user/usertests.c
+ 1066  make qemu
+ 1067  cd ..
+ 1068  cd cs149/ws_bonus
+ 1069  cd ~/desktop/cs149/ws_bonus
